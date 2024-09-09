@@ -1,6 +1,6 @@
 # PLZ to Bundesland Converter
 
-This Python script converts German postal codes (PLZ) to their corresponding Bundesland (federal state). It can process individual PLZ inputs or bulk process PLZ data from Excel files.
+This Python script converts German postal codes (PLZ, Postleitzahl) to their corresponding Bundesland (federal state). It can process individual PLZ inputs or bulk process PLZ data from Excel files.
 
 ## Features
 
