@@ -19,7 +19,7 @@ This Python script converts German postal codes (PLZ, Postleitzahl) to their cor
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/plz-to-bundesland.git
+   git clone https://github.com/alex8098/PLZ_to_Bundesland_Converter.git
    cd plz-to-bundesland
    ```
 
