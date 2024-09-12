@@ -1,12 +1,12 @@
-from bisect import bisect_right
+# src/plz_to_bundesland/converter.py
+
 from .plz_data import PLZ_RANGES
-import pandas as pd
 
 def get_bundesland(plz: str) -> str:
     plz = plz.zfill(5)
-    index = bisect_right(PLZ_RANGES, (plz,)) - 1
-    if index >= 0 and PLZ_RANGES[index][0] <= plz <= PLZ_RANGES[index][1]:
-        return PLZ_RANGES[index][2]
+    for (start, end), bundesland in PLZ_RANGES.items():
+        if start <= plz <= end:
+            return bundesland
     return 'Unknown'
 
 def process_excel(input_file: str, output_file: str) -> None:

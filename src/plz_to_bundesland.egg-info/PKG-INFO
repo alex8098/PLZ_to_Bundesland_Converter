@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: plz_to_bundesland
-Version: 0.1.1
+Version: 0.1.2
 Summary: A package to convert German postal codes (PLZ) to their corresponding Bundesland
 Home-page: https://github.com/alex8098/plz_to_bundesland_converter
 Author: Alexander Johae
