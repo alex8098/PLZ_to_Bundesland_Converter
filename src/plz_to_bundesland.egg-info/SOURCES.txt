@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/plz_to_bundesland/__init__.py
+src/plz_to_bundesland/cli.py
+src/plz_to_bundesland/converter.py
+src/plz_to_bundesland/plz_data.py
+src/plz_to_bundesland.egg-info/PKG-INFO
+src/plz_to_bundesland.egg-info/SOURCES.txt
+src/plz_to_bundesland.egg-info/dependency_links.txt
+src/plz_to_bundesland.egg-info/entry_points.txt
+src/plz_to_bundesland.egg-info/requires.txt
+src/plz_to_bundesland.egg-info/top_level.txt

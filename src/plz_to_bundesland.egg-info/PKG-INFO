@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: plz_to_bundesland
+Version: 0.1.1
+Summary: A package to convert German postal codes (PLZ) to their corresponding Bundesland
+Home-page: https://github.com/alex8098/plz_to_bundesland_converter
+Author: Alexander Johae
+Author-email: alex.johae@web.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: openpyxl>=3.0.0
+
 # PLZ to Bundesland Converter
 
 This Python package converts German postal codes (PLZ, Postleitzahl) to their corresponding Bundesland (federal state). It can process individual PLZ inputs or bulk process PLZ data from Excel files.

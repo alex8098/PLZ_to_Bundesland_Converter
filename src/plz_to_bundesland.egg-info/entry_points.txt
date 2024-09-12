@@ -1,0 +1,2 @@
+[console_scripts]
+plz_to_bundesland = plz_to_bundesland.cli:main
